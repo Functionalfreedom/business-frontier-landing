@@ -1,101 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Business Frontier | Revenue Intelligence</title>
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            // Optional: Custom amber accent to match your logo branding precisely
-            brandAmber: '#F59E0B', 
-          }
-        }
-      }
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business Frontier delivers Revenue Intelligence for landscaping, trades, and family retail in BC & Western Canada. Uncover $10K–$50K+ in hidden profit leaks with a fast 48-hour data-driven audit.">
+    <title>Business Frontier | Revenue Intelligence for Trades & Small Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
 </head>
-<body class="bg-zinc-950 text-zinc-100 antialiased min-h-screen flex flex-col">
+<body class="bg-zinc-950 text-zinc-100 antialiased">
 
-  <!-- FIXED HEADER: Incorporating the optimized structure -->
-  <header class="w-full bg-zinc-950 border-b border-zinc-800 sticky top-0 z-50">
-    <nav class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-
-      <!-- Logo (shrink-0 ensures the flexbox never compresses the image) -->
-      <a href="/" class="flex items-center shrink-0">
-        <img
-          src="logo.png"
-          alt="Business Frontier"
-          class="h-9 w-auto"
-        />
-      </a>
-
-      <!-- Navigation Links (Hidden on mobile, pristine layout on desktop) -->
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-        <a href="#features" class="hover:text-white transition-colors">Features</a>
-        <a href="#solutions" class="hover:text-white transition-colors">Solutions</a>
-        <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
-      </div>
-
-      <!-- CTA Button Block -->
-      <div class="flex items-center gap-4 shrink-0">
-        <a 
-          href="#contact" 
-          class="bg-white text-zinc-950 px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-zinc-200 transition-all duration-200 shadow-sm"
-        >
-          Get Revenue Intelligence
-        </a>
-      </div>
-
+    <!-- Header Navigation -->
+    <nav class="border-b border-zinc-900 bg-zinc-950">
+        <!-- Increased h-16 to h-20 to give the larger logo breathing room -->
+        <div class="max-w-5xl mx-auto px-6 h-20 flex justify-between items-center">
+            
+            <!-- Logo Link -->
+            <a href="#" class="flex items-center shrink-0">
+                <!-- Scaled from h-9 up to h-12 to make it prominently visible -->
+                <img src="logo.png" alt="Business Frontier" class="h-12 w-auto">
+            </a>
+            
+            <!-- CTA Button -->
+            <div class="flex items-center shrink-0">
+                <a href="#contact" class="bg-white text-black px-6 py-2.5 rounded-full font-medium hover:bg-zinc-200 transition">
+                    Get Revenue Intelligence
+                </a>
+            </div>
+            
+        </div>
     </nav>
-  </header>
 
-  <!-- HERO SECTION -->
-  <main class="flex-grow">
-    <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center flex flex-col items-center">
-      <!-- Glow Accent Badge -->
-      <span class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-amber-400 bg-amber-500/10 rounded-full border border-amber-500/20 mb-6">
-        <span class="w-1.5 h-1.5 bg-amber-400 rounded-full animate-pulse"></span>
-        Next-Gen Optimization Platform
-      </span>
-      
-      <h1 class="text-4xl sm:text-6xl font-bold tracking-tight text-white max-w-3xl leading-[1.15] mb-6">
-        Maximize performance with data-driven <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-400">revenue intelligence</span>
-      </h1>
-      
-      <p class="text-zinc-400 text-lg sm:text-xl max-w-2xl mb-10 leading-relaxed">
-        Eliminate gaps, capture structural insights, and fully scale your monetization logic with real-time risk assessment.
-      </p>
-
-      <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-        <a href="#contact" class="bg-white text-zinc-950 px-8 py-3.5 rounded-full font-medium hover:bg-zinc-200 transition-all text-center">
-          Get Revenue Intelligence
-        </a>
-        <a href="#features" class="bg-zinc-900 text-zinc-300 border border-zinc-800 px-8 py-3.5 rounded-full font-medium hover:bg-zinc-800 hover:text-white transition-all text-center">
-          Explore Platform
-        </a>
-      </div>
+    <!-- Hero Section -->
+    <section class="py-28 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6 text-white">Stop losing money you didn’t know you were losing.</h1>
+            <p class="text-xl md:text-2xl text-zinc-400 mb-10 max-w-3xl mx-auto leading-relaxed">We deliver <strong>Revenue Intelligence</strong> — a 48-hour data-driven audit that finds $10K–$50K+ in hidden profit leaks for landscaping, trades, and family retail businesses.</p>
+            <a href="#contact" class="inline-block bg-white text-black px-10 py-4 rounded-full text-lg font-semibold hover:bg-zinc-200 transition">Start Your $500 Audit →</a>
+        </div>
     </section>
 
-    <!-- CONTENT PLACEHOLDERS FOR SCROLLING -->
-    <section id="features" class="border-t border-zinc-900 bg-zinc-900/30 py-20">
-      <div class="max-w-5xl mx-auto px-6">
-        <h2 class="text-2xl font-bold text-white mb-4">Core Capabilities</h2>
-        <p class="text-zinc-400 max-w-xl">Deep analytics architecture engineered to eliminate blindspots and drive workflow automation smoothly.</p>
-      </div>
+    <!-- Review Pillars -->
+    <section class="py-20 bg-zinc-900/50 border-y border-zinc-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-white">The 48-Hour Revenue Intelligence Review</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
+                    <div class="text-amber-500 text-4xl font-bold mb-4">01</div>
+                    <h3 class="text-xl font-semibold mb-3 text-white">Margin &amp; Pricing Leaks</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Historic underpricing, inconsistent rates, and margins not keeping pace with inflation &amp; COGS.</p>
+                </div>
+                <div class="bg-zinc-800/40 border border-zinc-800 p-8 rounded-2xl">
+                    <div class="text-amber-500 text-4xl font-bold mb-4">02</div>
+                    <h3 class="text-xl font-semibold mb-3 text-white">Labor &amp; Job Costing Gaps</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Unbilled hours, scope creep, and inaccurate time &amp; material tracking.</p>
+                </div>
+                <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
+                    <div class="text-amber-500 text-4xl font-bold mb-4">03</div>
+                    <h3 class="text-xl font-semibold mb-3 text-white">Customer &amp; Revenue Risk</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Concentration risks from few clients and missed upsell opportunities.</p>
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <!-- FOOTER -->
-  <footer class="w-full bg-zinc-950 border-t border-zinc-900 py-8 text-center text-xs text-zinc-600">
-    <div class="max-w-5xl mx-auto px-6">
-      &copy; 2026 Business Frontier. All rights reserved.
-    </div>
-  </footer>
+    <!-- Intake Form -->
+    <section id="contact" class="py-24 bg-zinc-950 text-zinc-100">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-4xl font-bold tracking-tight mb-4 text-center text-white">Ready to uncover your hidden profit?</h2>
+            <p class="text-center text-lg text-zinc-400 mb-12">Fill out the fields below to schedule your $500 audit. 48-hour turnaround.</p>
 
+            <form action="https://formspree.io/f/xqeoewlb" method="POST" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-medium text-zinc-300 mb-2">Full Name</label>
+                    <input type="text" name="name" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition">
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-zinc-300 mb-2">Email Address</label>
+                        <input type="email" name="email" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-zinc-300 mb-2">Phone Number</label>
+                        <input type="tel" name="phone" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-zinc-300 mb-2">Business Name &amp; Website</label>
+                    <input type="text" name="company" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-zinc-300 mb-2">Industry Sector</label>
+                    <select name="industry" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition">
+                        <option>Landscaping &amp; Grounds Management</option>
+                        <option>Trades &amp; Construction Services</option>
+                        <option>Independent Retail / Distribution</option>
+                        <option>Other Service Business</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-zinc-300 mb-2">What is your primary operational bottleneck right now?</label>
+                    <textarea name="bottleneck" rows="4" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-zinc-700 transition" placeholder="e.g., pricing uncertainty, labor hours leak, job costing accuracy..."></textarea>
+                </div>
+                <div class="pt-2">
+                    <button type="submit" class="w-full bg-white text-black font-semibold py-4 rounded-lg hover:bg-zinc-200 transition text-center shadow-lg">
+                        Submit Audit Request →
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-900 bg-zinc-950 py-8">
+        <div class="max-w-5xl mx-auto px-6 text-center text-zinc-500 text-sm">
+            <p>&copy; 2026 Business Frontier. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
