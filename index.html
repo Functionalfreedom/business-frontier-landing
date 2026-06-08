@@ -6,6 +6,7 @@
     <meta name="description" content="Business Frontier fixes leaking revenue for Western Canada's trades, landscaping, and retail sectors. Discover $5,000+ in hidden margin opportunities with a data-driven 48-Hour Quick Profit Audit.">
     <title>Business Frontier | Revenue Intelligence & Profit Leak Analysis</title>
     
+    <!-- Consolidated & Advanced Schema for AI Engine Optimization (GEO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -37,38 +38,102 @@
             "Profit Leak Analysis",
             "Margin Optimization",
             "Labor Costing Analysis",
-            "Job Cost Reconciliations"
+            "Job Cost Reconciliations",
+            "Business Intelligence Analytics"
           ]
         },
         {
-          "@type": "Product",
-          "@id": "https://businessfrontier.ca/#product",
-          "name": "Quick Profit Audit",
-          "description": "A rapid 48-hour commercial data analysis mapping historical corporate figures, payroll registers, and invoicing sheets against margin erosion vectors.",
-          "brand": {
+          "@type": "Service",
+          "@id": "https://businessfrontier.ca/#service",
+          "name": "48-Hour Quick Profit Audit",
+          "provider": {
             "@id": "https://businessfrontier.ca/#organization"
           },
+          "description": "Data-driven revenue intelligence audit that identifies $10K–$50K+ in hidden profit leaks with a $5,000 Profit Discovery Guarantee.",
+          "serviceType": "Business Intelligence & Margin Optimization Consulting",
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Western Canada"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "British Columbia"
+            }
+          ],
           "offers": {
             "@type": "Offer",
             "price": "500.00",
             "priceCurrency": "CAD",
             "valueAddedTaxIncluded": "false",
             "availability": "https://schema.org/InStock",
-            "priceValidUntil": "2027-01-01",
-            "eligibleRegion": {
-              "@type": "AdministrativeArea",
-              "name": "Western Canada"
-            },
+            "priceValidUntil": "2027-12-31",
+            "eligibleRegion": [
+              {
+                "@type": "AdministrativeArea",
+                "name": "Western Canada"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "British Columbia"
+              }
+            ],
             "warranty": {
               "@type": "WarrantyPromise",
               "description": "If the final diagnostic snapshot fails to uncover a minimum of $5,000 CAD in actionable annual profit optimizations based on user data layers, a full refund is promptly issued."
             }
           }
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://businessfrontier.ca/#methodology-framework",
+          "name": "The 48-Hour Revenue Intelligence Framework",
+          "description": "Our structural framework for tracing and stopping corporate margin erosion across three data-driven profit vectors.",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "Analyze Margin & Pricing Leaks",
+              "text": "Auditing historical pricing sheets against material inflation and COGS changes to flag quietly eroded margins."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Reconcile Labor Efficiency & Costing",
+              "text": "Reconciling payroll records against actual billed job hours to expose unbilled field hours or drive time."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Assess Client & Revenue Risk",
+              "text": "Tracing client concentration thresholds to isolate vulnerabilities where over-reliance threatens baseline stability."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://businessfrontier.ca/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the upfront cost and guarantee of the Quick Profit Audit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The upfront cost is exactly $500 CAD. If our analysis fails to find at least $5,000 CAD in clear, actionable annual profit leak optimizations, we issue a prompt, full refund on the spot."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How are traditional monthly retainers different from Business Frontier?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Traditional fractional CFOs use expensive ongoing monthly retainer contracts ranging from $3,000 to over $12,000/mo. Business Frontier operates strictly as a flat-fee data intelligence unit to isolate waste without imposing long-term contract baggage."
+              }
+            }
+          ]
         }
       ]
     }
     </script>
     
+    <!-- Tailwind Configuration using defined Custom Visual Layer utilities -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -115,8 +180,8 @@
 
     <main class="flex-grow">
         <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center flex flex-col items-center" aria-label="Introduction">
-            <span class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-orange-400 bg-orange-500/10 rounded-full border border-orange-500/20 mb-6">
-                <span class="w-1.5 h-1.5 bg-orange-500 rounded-full animate-pulse"></span>
+            <span class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-industrialOrange bg-industrialOrange/10 rounded-full border border-industrialOrange/20 mb-6">
+                <span class="w-1.5 h-1.5 bg-industrialOrange rounded-full animate-pulse"></span>
                 Commercial Data Analysis & Revenue Intelligence
             </span>
             
@@ -129,7 +194,7 @@
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
-                <a href="#audit-intake" class="bg-gradient-to-r from-orange-600 to-amber-500 text-white px-8 py-3.5 rounded-full font-semibold hover:brightness-110 transition-all text-center shadow-md">
+                <a href="#audit-intake" class="bg-gradient-to-r from-industrialOrange to-brandAmber text-white px-8 py-3.5 rounded-full font-semibold hover:brightness-110 transition-all text-center shadow-md">
                     Book a $500 Quick Profit Audit →
                 </a>
                 <a href="#methodology" class="bg-zinc-900 text-zinc-300 border border-zinc-800 px-8 py-3.5 rounded-full font-medium hover:bg-zinc-800 hover:text-white transition-all text-center">
@@ -145,17 +210,17 @@
                 
                 <div class="grid md:grid-cols-3 gap-8">
                     <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
-                        <div class="text-orange-500 text-4xl font-bold mb-4">01</div>
+                        <div class="text-industrialOrange text-4xl font-bold mb-4">01</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Margin &amp; Pricing Leaks</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We audit your historical pricing sheets against material inflation and COGS changes to flag line items where your margins have been quietly eroded.</p>
                     </article>
                     <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
-                        <div class="text-orange-500 text-4xl font-bold mb-4">02</div>
+                        <div class="text-industrialOrange text-4xl font-bold mb-4">02</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Labor Efficiency &amp; Costing</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We reconcile payroll records against actual billed job hours to expose unbilled field hours, unrecovered drive time, and administrative scope creep.</p>
                     </article>
                     <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
-                        <div class="text-orange-500 text-4xl font-bold mb-4">03</div>
+                        <div class="text-industrialOrange text-4xl font-bold mb-4">03</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Client &amp; Revenue Risk</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We trace your client concentration thresholds to isolate vulnerabilities where over-reliance on a few primary accounts threatens your baseline stability.</p>
                     </article>
@@ -164,12 +229,12 @@
         </section>
 
         <section id="guarantee" class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 text-center" aria-labelledby="guarantee-heading">
-            <div class="max-w-3xl mx-auto px-6 border border-orange-500/30 bg-orange-950/10 p-10 rounded-3xl backdrop-blur-sm">
+            <div class="max-w-3xl mx-auto px-6 border border-industrialOrange/30 bg-orange-950/10 p-10 rounded-3xl backdrop-blur-sm">
                 <h2 id="guarantee-heading" class="text-3xl font-bold text-white mb-4">Our $5,000 Profit Discovery Guarantee</h2>
                 <p class="text-zinc-300 text-lg leading-relaxed mb-6">
                     The upfront cost of the Quick Profit Audit is exactly <strong>$500 CAD</strong>. If our final analysis does not uncover at least <strong>$5,000 CAD</strong> in clear, actionable annual profit leak optimizations for your business, you pay absolutely nothing. We will issue a full, prompt refund on the spot.
                 </p>
-                <div class="inline-block text-xs uppercase tracking-wider font-semibold text-orange-400 bg-orange-950 px-4 py-2 rounded-md border border-orange-800">
+                <div class="inline-block text-xs uppercase tracking-wider font-semibold text-industrialOrange bg-orange-950 px-4 py-2 rounded-md border border-clayBurned">
                     48-Hour Delivery or Full Refund
                 </div>
             </div>
@@ -185,29 +250,29 @@
                 <form action="https://formspree.io/f/xqeoewlb" method="POST" class="space-y-6">
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-sm font-medium text-zinc-300 mb-2">Owner / Contact Name</label>
-                            <input type="text" name="name" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition">
+                            <label for="owner-name" class="block text-sm font-medium text-zinc-300 mb-2">Owner / Contact Name</label>
+                            <input type="text" id="owner-name" name="name" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition">
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-zinc-300 mb-2">Corporate Entity Name</label>
-                            <input type="text" name="company" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition">
+                            <label for="company-name" class="block text-sm font-medium text-zinc-300 mb-2">Corporate Entity Name</label>
+                            <input type="text" id="company-name" name="company" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition">
                         </div>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-sm font-medium text-zinc-300 mb-2">Secure Email Address</label>
-                            <input type="email" name="email" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition">
+                            <label for="email-address" class="block text-sm font-medium text-zinc-300 mb-2">Secure Email Address</label>
+                            <input type="email" id="email-address" name="email" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition">
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-zinc-300 mb-2">Direct Phone Line</label>
-                            <input type="tel" name="phone" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition">
+                            <label for="phone-line" class="block text-sm font-medium text-zinc-300 mb-2">Direct Phone Line</label>
+                            <input type="tel" id="phone-line" name="phone" required class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition">
                         </div>
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-zinc-300 mb-2">Primary Core Industry Sector</label>
-                        <select name="industry" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition">
+                        <label for="industry-sector" class="block text-sm font-medium text-zinc-300 mb-2">Primary Core Industry Sector</label>
+                        <select id="industry-sector" name="industry_sector" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition">
                             <option>Specialty Trades &amp; Construction Contracting</option>
                             <option>Commercial Landscaping &amp; Property Maintenance</option>
                             <option>Independent Retail, Wholesale, or Distribution</option>
@@ -216,13 +281,13 @@
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-zinc-300 mb-2">Primary Sales &amp; Invoicing Channels</label>
-                        <input type="text" name="channels" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition" placeholder="e.g., T&M Invoicing, Progress Billing, Fixed-Bid Commercial Contracts..." required>
+                        <label for="invoicing-channels" class="block text-sm font-medium text-zinc-300 mb-2">Primary Sales &amp; Invoicing Channels</label>
+                        <input type="text" id="invoicing-channels" name="channels" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition" placeholder="e.g., T&M Invoicing, Progress Billing, Fixed-Bid Commercial Contracts..." required>
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-zinc-300 mb-2">Describe Your Primary Margin Bottleneck or Profit Leak Concerns</label>
-                        <textarea name="bottleneck" rows="4" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-orange-500 transition" placeholder="e.g., unbilled hours tracking, outdated material cost formulas, labor overhead inflation spikes..." required></textarea>
+                        <label for="leak-concerns" class="block text-sm font-medium text-zinc-300 mb-2">Describe Your Primary Margin Bottleneck or Profit Leak Concerns</label>
+                        <textarea id="leak-concerns" name="bottleneck" rows="4" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-zinc-100 focus:outline-none focus:border-industrialOrange transition" placeholder="e.g., unbilled hours tracking, outdated material cost formulas, labor overhead inflation spikes..." required></textarea>
                     </div>
 
                     <div class="bg-zinc-900 p-4 rounded-xl border border-zinc-800 text-xs text-zinc-400 space-y-1">
