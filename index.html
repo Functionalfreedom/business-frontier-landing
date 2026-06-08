@@ -6,6 +6,69 @@
     <meta name="description" content="Business Frontier fixes leaking revenue for Western Canada's trades, landscaping, and retail sectors. Discover $5,000+ in hidden margin opportunities with a data-driven 48-Hour Quick Profit Audit.">
     <title>Business Frontier | Revenue Intelligence & Profit Leak Analysis</title>
     
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://businessfrontier.ca/#organization",
+          "name": "Business Frontier",
+          "url": "https://businessfrontier.ca",
+          "logo": "https://businessfrontier.ca/logo.png",
+          "description": "A specialized commercial data analysis and revenue intelligence firm fixing structural margin erosion and profit leaks for owner-operated businesses across Western Canada.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "BC",
+            "addressCountry": "CA"
+          },
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Western Canada"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "British Columbia"
+            }
+          ],
+          "knowsAbout": [
+            "Revenue Intelligence",
+            "Profit Leak Analysis",
+            "Margin Optimization",
+            "Labor Costing Analysis",
+            "Job Cost Reconciliations"
+          ]
+        },
+        {
+          "@type": "Product",
+          "@id": "https://businessfrontier.ca/#product",
+          "name": "Quick Profit Audit",
+          "description": "A rapid 48-hour commercial data analysis mapping historical corporate figures, payroll registers, and invoicing sheets against margin erosion vectors.",
+          "brand": {
+            "@id": "https://businessfrontier.ca/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "500.00",
+            "priceCurrency": "CAD",
+            "valueAddedTaxIncluded": "false",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2027-01-01",
+            "eligibleRegion": {
+              "@type": "AdministrativeArea",
+              "name": "Western Canada"
+            },
+            "warranty": {
+              "@type": "WarrantyPromise",
+              "description": "If the final diagnostic snapshot fails to uncover a minimum of $5,000 CAD in actionable annual profit optimizations based on user data layers, a full refund is promptly issued."
+            }
+          }
+        }
+      ]
+    }
+    </script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -29,9 +92,9 @@
 <body class="bg-zinc-950 text-zinc-100 antialiased min-h-screen flex flex-col">
 
     <header class="w-full bg-zinc-950 border-b border-zinc-900 sticky top-0 z-50">
-        <nav class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+        <nav class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between" aria-label="Main Navigation">
 
-            <a href="#" class="flex items-center shrink-0">
+            <a href="#" class="flex items-center shrink-0" aria-label="Business Frontier Home">
                 <img src="logo.png" alt="Business Frontier" class="h-12 w-auto" />
             </a>
 
@@ -51,7 +114,7 @@
     </header>
 
     <main class="flex-grow">
-        <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center flex flex-col items-center">
+        <section class="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center flex flex-col items-center" aria-label="Introduction">
             <span class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-orange-400 bg-orange-500/10 rounded-full border border-orange-500/20 mb-6">
                 <span class="w-1.5 h-1.5 bg-orange-500 rounded-full animate-pulse"></span>
                 Commercial Data Analysis & Revenue Intelligence
@@ -75,34 +138,34 @@
             </div>
         </section>
 
-        <section id="methodology" class="py-20 bg-zinc-900/50 border-y border-zinc-900">
+        <section id="methodology" class="py-20 bg-zinc-900/50 border-y border-zinc-900" aria-labelledby="methodology-heading">
             <div class="max-w-5xl mx-auto px-6">
-                <h2 class="text-3xl font-bold text-center mb-4 text-white">The 48-Hour Revenue Intelligence Framework</h2>
+                <h2 id="methodology-heading" class="text-3xl font-bold text-center mb-4 text-white">The 48-Hour Revenue Intelligence Framework</h2>
                 <p class="text-zinc-400 text-center max-w-2xl mx-auto mb-12">We don't guess, pitch software, or offer generic advice. We run cold, hard data analysis across three critical profit vectors to trace exactly where cash is slipping through your cracks.</p>
                 
                 <div class="grid md:grid-cols-3 gap-8">
-                    <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
+                    <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
                         <div class="text-orange-500 text-4xl font-bold mb-4">01</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Margin &amp; Pricing Leaks</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We audit your historical pricing sheets against material inflation and COGS changes to flag line items where your margins have been quietly eroded.</p>
-                    </div>
-                    <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
+                    </article>
+                    <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
                         <div class="text-orange-500 text-4xl font-bold mb-4">02</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Labor Efficiency &amp; Costing</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We reconcile payroll records against actual billed job hours to expose unbilled field hours, unrecovered drive time, and administrative scope creep.</p>
-                    </div>
-                    <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
+                    </article>
+                    <article class="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl">
                         <div class="text-orange-500 text-4xl font-bold mb-4">03</div>
                         <h3 class="text-xl font-semibold mb-3 text-white">Client &amp; Revenue Risk</h3>
                         <p class="text-zinc-400 text-sm leading-relaxed">We trace your client concentration thresholds to isolate vulnerabilities where over-reliance on a few primary accounts threatens your baseline stability.</p>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="guarantee" class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 text-center">
+        <section id="guarantee" class="py-20 bg-gradient-to-b from-zinc-950 to-zinc-900 text-center" aria-labelledby="guarantee-heading">
             <div class="max-w-3xl mx-auto px-6 border border-orange-500/30 bg-orange-950/10 p-10 rounded-3xl backdrop-blur-sm">
-                <h2 class="text-3xl font-bold text-white mb-4">Our $5,000 Profit Discovery Guarantee</h2>
+                <h2 id="guarantee-heading" class="text-3xl font-bold text-white mb-4">Our $5,000 Profit Discovery Guarantee</h2>
                 <p class="text-zinc-300 text-lg leading-relaxed mb-6">
                     The upfront cost of the Quick Profit Audit is exactly <strong>$500 CAD</strong>. If our final analysis does not uncover at least <strong>$5,000 CAD</strong> in clear, actionable annual profit leak optimizations for your business, you pay absolutely nothing. We will issue a full, prompt refund on the spot.
                 </p>
@@ -112,9 +175,9 @@
             </div>
         </section>
 
-        <section id="audit-intake" class="py-24 bg-zinc-950 border-t border-zinc-900">
+        <section id="audit-intake" class="py-24 bg-zinc-950 border-t border-zinc-900" aria-labelledby="form-heading">
             <div class="max-w-2xl mx-auto px-6">
-                <h2 class="text-4xl font-bold tracking-tight mb-2 text-center text-white">Initiate Your Profit Leak Analysis</h2>
+                <h2 id="form-heading" class="text-4xl font-bold tracking-tight mb-2 text-center text-white">Initiate Your Profit Leak Analysis</h2>
                 <p class="text-center text-base text-zinc-400 mb-10">
                     To maintain an absolute 48-hour turnaround, we require initial operational context. Please supply your basic business coordinates below to book your diagnostic snapshot.
                 </p>
@@ -176,7 +239,7 @@
             </div>
         </section>
 
-        <section id="standards" class="border-t border-zinc-900 bg-zinc-900/30 py-20">
+        <section id="standards" class="border-t border-zinc-900 bg-zinc-900/30 py-20" aria-label="Standards and Positioning">
             <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 class="text-2xl font-bold text-white mb-4">Enterprise Data Security</h2>
