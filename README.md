@@ -1,86 +1,25 @@
-# Business Frontier | Landing Page
+# 🏛️ Principal & Systems Architect | Hierarchy Capital Ecosystem
 
-The official, production-ready landing page for **Business Frontier** (`businessfrontier.ca`)—a specialized commercial data analysis and revenue intelligence firm.
+I design and deploy the software infrastructure, data systems, and automated execution layers for **Hierarchy Investment Capital Holdings Corp.** My primary objective is the development of an integrated, code-driven capital engine that orchestrates service operations, intellectual property licensing, and automated business intelligence to accumulate internal treasury resources.
 
-The page is designed as a high-intent, single-page application built to convert owner-operators across Canada who are experiencing structural margin erosion and operational profit leaks.
-
----
-
-## 🎯 Value Proposition & Core Offer
-
-Business Frontier targets owner-operated service and inventory businesses with a low-friction, high-guarantee diagnostic snapshot:
-
-* **The Core Hook:** Discovered $5,000+ in hidden annual business profit within 48 hours or a full refund.
-* **Pricing Model:** A flat **$500 CAD fee**—positioned directly as a swift, tactical alternative to bloated $3,000–$12,000/mo fractional CFO retainers.
-* **Target Sectors:**
-* Specialty Trades & Construction Contracting
-* Commercial Landscaping & Property Maintenance
-* Independent Retail, Wholesale, & Distribution
-
-
+My immediate operational focus is launching targeted, high-margin projects to consistently generate and aggregate capital, building the liquidity stack required to finance and scale our brownfield acquisitions. Long-term, the sustainable yield and income generated from these acquired cash-flow operations will serve as the primary engine to fund and scale our target real estate development projects.
 
 ---
 
-## 🛠️ Technical Stack & Architecture
+### 🧩 Ecosystem Architecture & Operational Verticals
 
-This landing page is engineered for rapid load speeds, semantic optimization, and zero dependencies:
+My development projects provide the underlying infrastructure that powers the distinct branches of the holding company:
 
-* **Markup:** Semantic HTML5 structured for maximum scannability and accessibility.
-* **Styling:** **Tailwind CSS (v3)** via CDN with a custom brand-extended industrial palette:
-* `brandAmber`: `#F59E0B`
-* `industrialOrange`: `#EA580C`
-* `clayBurned`: `#9A3412`
-
-
-* **Typography:** Modern, native sans-serif stack optimized for crisp rendering on dark backgrounds (`bg-zinc-950`).
-* **Lead Ingestion:** Integrates natively with a secure **Formspree** endpoint (`[https://formspree.io/f/xqeoewlb](https://formspree.io/f/xqeoewlb)`) capturing 7 points of critical operational context.
+* **MIRA (Business Intelligence & Data Science):** Developing specialized data analysis frameworks (currently executing through *Business Frontier*) to isolate structural margin erosion, tracking drop-offs, and cash leaks for independent companies.
+* **EMERA (Intellectual Property & Software Licensing):** Building automated document generation systems, custom internal tools, and software licensing models engineered for programmatic monetization.
+* **Service Ventures & Acquisitions:** Designing automated, lean front-end systems and high-leverage lead generation pipelines to optimize operational cash flow for brownfield operating companies.
+* **Treasury & Wealth Aggregation:** Structuring wealth reservoir frameworks and modern portfolio allocation models to securely manage and deploy aggregated operational liquidity into equities, private debt, and real asset/development plays.
 
 ---
 
-## 📈 SEO & Data Integrity
+### ⚙️ System Philosophy
 
-The code features comprehensive, structured optimization built directly into the document header:
-
-### 1. JSON-LD Schema Architecture
-
-Includes a multi-layered `@graph` schema structure mapping out:
-
-* **`Organization`:** Declares Business Frontier as a verified entity operating across **Canada**.
-* **`Service`:** Explicitly codes the *48-Hour Quick Profit Audit* product parameters, legal warranties, and pricing criteria into search engines.
-* **`FAQPage`:** Maps out structured QA schema definitions to capture rich-snippet real estate on search engine results pages (SERPs).
-
-### 2. Social Meta Layers
-
-Fully configured for professional delivery across B2B platforms like LinkedIn and Twitter, pointing to dedicated graphic assets (`og-image.png`).
+> "Ensure all code maximizes operational leverage through complete 'Zero-Touch' automation, automated document generation, and direct data reconciliation. Eliminate manual re-entry and third-party SaaS middleware dependencies."
 
 ---
-
-## 📂 Form Fields Captured
-
-The intake form collects deep-context credentials to ensure leads are vetted before the manual data-handshake occurs:
-
-1. `name` — Owner / Contact Name
-2. `company` — Corporate Entity Name
-3. `email` — Secure Email Address
-4. `phone` — Direct Phone Line
-5. `industry_sector` — Picklist targeting core regional field/logistics sectors
-6. `channels` — Revenue mechanics (e.g., T&M vs. Fixed-Bid)
-7. `bottleneck` — Text area defining specific margin leak anxieties
-
----
-
-## 🔒 Security & Privacy Protocols
-
-The messaging emphasizes institutional privacy standards:
-
-* **Zero AI Leakage:** Assures clients that proprietary financial logs are handled locally and are **never used to train public AI models**.
-* **Direct Handshake:** No risky, automatic live software authorizations or banking synchronizations are requested upfront. Data interaction happens securely *post-submission* over strict verification protocols.
-
----
-
-## 🚀 Deployment & Updates
-
-Because this is a completely decoupled, client-side resource, it can be instantly deployed on any high-performance edge network:
-
-* **Recommended Platforms:** Vercel, Netlify, Cloudflare Pages, or AWS S3 + CloudFront.
-* **Modifying Endpoints:** To change the target repository for incoming form leads, swap out the `action` attribute in the `<form>` element to your updated production API handler.
+*Autonomous Infrastructure for Corporate Group Navigation.*
